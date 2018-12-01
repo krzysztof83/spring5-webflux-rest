@@ -28,8 +28,9 @@ dependencies {
 	implementation('org.springframework.boot:spring-boot-starter-data-mongodb-reactive')
 	implementation('org.springframework.boot:spring-boot-starter-webflux')
 	implementation('de.flapdoodle.embed:de.flapdoodle.embed.mongo')
-	compile('org.projectlombok:lombok')
+	compile('org.projectlombok:lombok:1.18.2')
 	testImplementation('org.springframework.boot:spring-boot-starter-test')
 	testImplementation('de.flapdoodle.embed:de.flapdoodle.embed.mongo')
 	testImplementation('io.projectreactor:reactor-test')
+	annotationProcessor 'org.projectlombok:lombok:1.18.2'
 }
